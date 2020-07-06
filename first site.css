@@ -1,0 +1,77 @@
+body , html
+{
+	background: url(fun.jpg)no-repeat center center fixed;
+	background-size: cover;
+	display: scroll;
+	font-style:italic;
+	flex-flow: nowrap;
+}
+
+.header
+{
+	background: #3399ff;
+    border-radius: 6px;
+    text-align: center;
+    margin: 0px;
+    padding:10px;
+    top: 0px;
+    box-shadow: -5px -5px 8px #00f, 5px 5px 8px #00f;
+    text-shadow: 5px 5px 6px black
+}
+
+    .bold
+{
+	font-weight: bold;
+	font-size: 25px;
+}
+p+div::first-letter
+{
+color: #f00;
+font-size :xxx-large ;
+}
+.one
+{
+	border: 1px solid #ff9966;
+	color: #00f;
+    font-weight: bold;
+    font-size: 20px
+}
+.container
+{
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+.try
+{
+		font-weight: bold;
+        text-overflow: 
+}
+
+
+.four
+{
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(102, 153, 0);
+text-decoration: none;
+}
+a
+{
+	color: green
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+float: right;
+  }
+  .btn:hover 
+  {
+  background-color: RoyalBlue;
+  box-shadow: inset -5px -2px 5px blue ,inset 5px 2px 5px blue;
+  }
